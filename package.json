@@ -92,15 +92,15 @@
   },
   "homepage": "https://github.com/dherault/serverless-offline",
   "dependencies": {
-    "babel-register": "^6.18.0",
-    "boom": "^4.2.0",
+    "babel-register": "^6.24.1",
+    "boom": "^4.3.1",
     "crypto": "^0.0.3",
-    "h2o2": "^5.4.0",
+    "h2o2": "^6.0.0",
     "hapi": "14.2.0",
     "hapi-cors-headers": "^1.0.0",
     "js-string-escape": "^1.0.1",
     "jsonpath-plus": "^0.16.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "velocityjs": "^0.9.3"
   },
   "devDependencies": {
