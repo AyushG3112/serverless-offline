@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha test",
-    "lint": "eslint src/**/*.js test/**/*.js"
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -101,7 +103,8 @@
     "js-string-escape": "^1.0.1",
     "jsonpath-plus": "^0.16.0",
     "lodash": "^4.17.4",
-    "velocityjs": "^0.9.3"
+    "velocityjs": "^0.9.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -111,5 +114,6 @@
     "eslint-plugin-import": "^2.2.0",
     "mocha": "^3.2.0",
     "sinon": "^1.17.7"
-  }
+  },
+  "snyk": true
 }
